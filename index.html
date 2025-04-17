@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>RadioctveRun</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +24,7 @@
     <header class="header">
 
         <a href="index.html" title="Home" class="header-logo">
-            <img src="Imagens/Logo.png" alt="RadioctveRun">
+            <img src="Imagens/Logo.png" width="70px" alt="RadioctveRun">
         </a>
         </div>
         <nav>
@@ -53,9 +54,7 @@
             <p>
             <h1> RadioctveRun </h1>
             <H2>Plataform Scape</H2> <br>
-            <a href="JogarAgora.html" title="Play" class="btn">
-                Jogar Agora
-            </a>
+            <button onclick="playGame()">Jogar</button>
             
             </p>
         </div>
@@ -108,11 +107,18 @@
                 <a href="htpps://www.instagram.com" title="instagram">
                     <i class="fab fa-instagram"></i>
                 </a>
-                <a href="https://www.x.com" title="X"></a>
+                <a href="https://www.x.com" title="X">
                 <i class="fa-brands fa-square-x-twitter"></i>
+                </a>
             </p>
         </div>
     </footer>
+
+    <script>
+        function playGame(){
+            window.open('Jogo/index.html','_blank');
+        }
+    </script>
    
 </body>
 
